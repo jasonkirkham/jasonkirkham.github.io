@@ -1,8 +1,9 @@
 body {
-	background-color: #dd2222;
+	background-color: #e90606;
 	font-family: Arial, sans-serif;
+	font-style: italic;
 }
 
 h1, p {
-	color: blue;
+	color: white;
 }
