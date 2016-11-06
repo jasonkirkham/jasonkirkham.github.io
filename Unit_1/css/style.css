@@ -1,9 +1,13 @@
 body {
-	background-color: #e90606;
+	background-color: #17206c;
 	font-family: Arial, sans-serif;
 	font-style: italic;
 }
 
 h1, p {
 	color: white;
+}
+
+h2{
+	color: #e90606;
 }
