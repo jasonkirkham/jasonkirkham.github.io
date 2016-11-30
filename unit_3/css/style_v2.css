@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #37353A;
+}
+
+body {
+	font-family: helvetica, arial, sans-serif;
+}
+
+header {
+	text-align: center;
+	padding: 50px;
+	background-color: #A1FFBE;
+}
+
+h1 {
+	color: #7F0B00;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+header img {
+	height: 300px;
+}
+
+nav {
+	padding: 10px;
+}
+
+nav a {
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+
+section {
+	padding: 20px;
+	background-image: url("images/Paper.png");
+	background-repeat: repeat-x;
+}
+
+main {
+	padding: 20px;
+}
+
+footer {
+	text-align: center;
+	text-decoration: none;	
+}

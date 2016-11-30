@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url("https://subtlepatterns.com/patterns/seigaiha.png");
+	background-repeat: repeat;
+	color: black;
+	text-align: center;
+	font-family: Verdana;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: helvetica;
+}
+
+a {
+	color: white;
+}
+
+#contact {
+	font-size: 20px;
+}
+
+.bold {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#projects {
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#summary {
+	font-style: italic;
+}
