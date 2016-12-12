@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Khula:800');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:600');
+
+* {
+	margin: 0;
+	padding: 0;
+	color: #37353A;
+}
+
+header {
+	text-align: center;
+	padding: 50px;
+	background-color: #B9D2F0;
+}
+
+h1 {
+	font-family: 'Bungee', cursive;
+	color: #7F0B00;
+	font-size: 50px;
+}
+
+h2 {
+	font-family: 'Khula', sans-serif;
+	font-size: 35px;
+}
+
+header img {
+	height: 300px;
+	padding: 20px;
+}
+
+nav {
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 20px;
+	text-align: right;
+
+}
+
+nav a {
+	text-align: center;
+	padding-right: 15px;
+	text-decoration: none;
+	background-color: #750DFF;
+	color: #DCD8DE; 
+}
+
+ul {
+	font-family: 'Bitter', serif;
+}
+
+main {
+	padding: 20px;
+	background-color: #92A5BD;
+	text-align: center;
+}
+
+main h2 {
+	padding-top: 50px;
+}
+section {
+	padding: 20px;
+	background-color: #72ADF2;
+	background-image: url("../images/Paper.png");
+	background-repeat: repeat-x;
+}
+
+footer {
+	background-color: #355070;
+	font-family: 'Source Code Pro', monospace;
+	text-align: center;
+	text-decoration: none;	
+	padding: 20px;
+}
+
+footer p {
+	color: #FFFFFF;
+	padding-top: 10px;
+}
+
+.summary {
+	font-family: 'Bitter', serif;
+}
+
+.websites a {
+	font-family: 'Bitter', serif;
+	padding-right: 30px;
+	text-decoration: none; 
+}
+
+.videos p {
+	font-family: 'Bitter', serif;
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: lighter;
+}
