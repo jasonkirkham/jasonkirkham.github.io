@@ -9,10 +9,6 @@
 	color: #37353A;
 }
 
-body {
-/*	font-family: helvetica, arial, sans-serif;
-*/}
-
 header {
 	text-align: center;
 	padding: 50px;
@@ -30,19 +26,6 @@ h2 {
 	font-size: 35px;
 }
 
-ul {
-	font-family: 'Bitter', serif;
-}
-
-#slogan {
-	font-style: italic;
-	font-weight: lighter;
-}
-
-.summary {
-	font-family: 'Bitter', serif;
-}
-
 header img {
 	height: 300px;
 	padding: 20px;
@@ -50,35 +33,43 @@ header img {
 
 nav {
 	font-weight: bold;
-	padding: 10px;
-}
+	font-size: 20px;
+	padding-bottom: 20px;
+	text-align: right;
 
-#clients {
-	float:right;
 }
 
 nav a {
 	text-align: center;
-	padding: 10px;
+	padding-right: 15px;
 	text-decoration: none;
+	background-color: #750DFF;
+	color: #DCD8DE; 
 }
 
-section {
-	padding: 20px;
-	background-color: #72ADF2;
-	background-image: url("images/Paper.png");
-	background-repeat: repeat-x;
+ul {
+	font-family: 'Bitter', serif;
 }
 
 main {
 	padding: 20px;
 	background-color: #92A5BD;
+	text-align: center;
+}
+
+main h2 {
+	padding-top: 50px;
+}
+section {
+	padding: 20px;
+	background-color: #72ADF2;
+	background-image: url("../images/Paper.png");
+	background-repeat: repeat-x;
 }
 
 footer {
 	background-color: #355070;
-/*	color: #FFFFFF;
-*/	font-family: 'Source Code Pro', monospace;
+	font-family: 'Source Code Pro', monospace;
 	text-align: center;
 	text-decoration: none;	
 	padding: 20px;
@@ -87,4 +78,23 @@ footer {
 footer p {
 	color: #FFFFFF;
 	padding-top: 10px;
+}
+
+.summary {
+	font-family: 'Bitter', serif;
+}
+
+.websites a {
+	font-family: 'Bitter', serif;
+	padding-right: 30px;
+	text-decoration: none; 
+}
+
+.videos p {
+	font-family: 'Bitter', serif;
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: lighter;
 }
