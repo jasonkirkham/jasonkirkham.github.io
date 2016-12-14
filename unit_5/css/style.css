@@ -7,6 +7,7 @@
 	margin: 0;
 	padding: 0;
 	color: #494949;
+	box-sizing: border-box;
 }
 
 #wrapper {
@@ -25,12 +26,13 @@ header {
 h1 {
 	font-family: 'Bungee', cursive;
 	color: #7F0B00;
-	font-size: 50px;
+	font-size: 60px;
 }
 
 h2 {
 	font-family: 'Khula', sans-serif;
 	font-size: 35px;
+	/*font-weight: lighter;*/
 }
 
 h3 {
@@ -59,13 +61,12 @@ nav {
 }
 
 nav a {
-	font-weight: lighter;
-	text-align: center;
 	padding-right: 15px;
 	text-decoration: none;
 	color: #705757; 
 	font-family: 'Khula', sans-serif;
 	font-size: 20px;
+	font-weight: lighter;
 }
 
 ul {
@@ -77,6 +78,13 @@ aside {
 	background: #FFC675;
 	border: 1px black solid;
 	padding: 20px;
+	float: right;
+	width: 460px;
+	margin: 0;
+}
+
+aside li{
+	padding-bottom: 5px;
 }
 
 main {
@@ -143,6 +151,11 @@ footer p:hover {
 	font-size: 20px;
 }
 
+.websites h2 {
+	font-size: 45px;
+	padding-top: 10px;
+}
+
 .links a {
 	padding: 20px 15px;
 	text-decoration: none;
@@ -170,6 +183,9 @@ footer p:hover {
 
 .lists {
 	text-decoration: none;
+	float: left;
+	width: 460px;
+	margin: 0;
 }
 
 .lists li {
@@ -178,6 +194,8 @@ footer p:hover {
 
 .contact { 
 	font-family: 'Bitter', serif;
+	clear: both;
+	text-align: center;
 }
 
 .contact p {
