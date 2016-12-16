@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Khula:800');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:600');
+
+* {
+	margin: 0;
+	padding: 0;
+	color: #494949;
+	box-sizing: border-box;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	padding: 50px;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1 {
+	font-family: 'Bungee', cursive;
+	color: #7F0B00;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: 'Khula', sans-serif;
+	font-size: 35px;
+	/*font-weight: lighter;*/
+}
+
+h3 {
+	font-family: 'Khula', sans-serif;
+	font-size: 30px;
+}
+
+header img {
+	height: 390px;
+	padding: 20px;
+}
+
+article {
+	background: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+	font-family: 'Bitter', serif;
+}
+
+nav {
+	width: 960px;
+/*	margin: 0em 0em 1em 1em;
+*//*	text-align: center;
+*/	background: #E8C66A; 
+	border: 1px black solid;
+/*	padding-right: 10px;*/
+}
+
+nav a {
+/*	padding-right: 15px;
+*/	text-decoration: none;
+	color: #705757; 
+	font-family: 'Khula', sans-serif;
+	font-size: 20px;
+	/*margin-left: 15px;
+	margin-right: 15px;*/
+	display: inline-block;
+	width: 180px;
+	background-color: #ffffff;
+	float: left;
+/*	vertical-align: center;
+*/
+
+}
+
+ul {
+	font-family: 'Bitter', serif;
+	list-style-type: none;
+}
+
+#left {
+	background: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 460px;
+	margin: 0;
+}
+
+#left li{
+	padding-bottom: 5px;
+}
+
+main {
+	padding: 20px;
+	background-color: #FFE2B8;
+	text-align: center;
+}
+
+#right {
+	background-color: #FFE2B8;
+	/*background-image: url("../images/Paper.png");*/
+	background-repeat: repeat-x;
+	border: 1px solid black;
+	padding: 20px;
+}
+
+a:visited {
+	color: black;
+}
+
+a:unvisited {
+	color: black;
+}
+
+a:hover {
+	color: red;
+}
+
+footer {
+	background: #FF957E;
+	font-family: 'Source Code Pro', monospace;
+	text-align: center;
+	padding: 20px;
+	border: 1px solid black;
+}
+
+footer p {
+	padding-top: 10px;
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+}
+
+footer img {
+	height: 40px;
+}
+
+footer p:visited {
+	color: black;
+}
+
+footer p:unvisited {
+	color: black;
+}
+
+footer p:hover {
+	color: red;
+}
+
+.websites {
+	font-family: 'Bitter', serif;
+	border: 1px solid black;
+	padding: 0;
+	font-size: 20px;
+}
+
+.websites h2 {
+	font-size: 45px;
+	padding-top: 10px;
+}
+
+.links a {
+	padding: 20px 15px;
+	text-decoration: none;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+.links img {
+	width: 200px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+}
+
+.videos {
+	font-family: 'Bitter', serif;
+	border: 1px solid black;
+	padding-top: 20px;
+}
+
+.videos p {
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+.lists {
+	text-decoration: none;
+	float: left;
+	width: 460px;
+	margin: 0;
+}
+
+.lists li {
+	 padding-bottom: 5px;
+}
+
+.contact { 
+	font-family: 'Bitter', serif;
+	clear: both;
+	text-align: center;
+}
+
+.contact p {
+	padding-bottom: 10px;
+}
+
+.contact a {
+	text-decoration: none;
+}
+
+.contact img {
+	height: 30px;
+	padding-left: 10px;
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: lighter;
+	line-height: 200%;
+	padding-top: 10px;
+}
+
+#summary {
+	font-weight: bold;
+	margin: 1.8em;
+	width: 600px;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+#summary p {
+	/*width: 600px;*/
+	margin: auto;
+}
+
+#goals {
+	padding: 20px;
+	font-family: 'Bitter', serif;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
+}
