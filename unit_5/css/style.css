@@ -53,20 +53,29 @@ article {
 }
 
 nav {
-	margin: 0em 0em 1em 1em;
-	text-align: right;
-	background: #E8C66A; 
+	width: 960px;
+/*	margin: 0em 0em 1em 1em;
+*//*	text-align: center;
+*/	background: #E8C66A; 
 	border: 1px black solid;
-	padding: 10px;
+/*	padding-right: 10px;*/
 }
 
 nav a {
-	padding-right: 15px;
-	text-decoration: none;
+/*	padding-right: 15px;
+*/	text-decoration: none;
 	color: #705757; 
 	font-family: 'Khula', sans-serif;
 	font-size: 20px;
-	font-weight: lighter;
+	/*margin-left: 15px;
+	margin-right: 15px;*/
+	display: inline-block;
+	width: 180px;
+	background-color: #ffffff;
+	float: left;
+/*	vertical-align: center;
+*/
+
 }
 
 ul {
@@ -234,4 +243,13 @@ footer p:hover {
 #goals {
 	padding: 20px;
 	font-family: 'Bitter', serif;
+}
+
+.clearfix:after {
+	display: block;
+	content: " ";
+	clear: both;
+	font-size: 0;
+	visibility: hidden;
+	height: 0;
 }
