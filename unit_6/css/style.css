@@ -140,7 +140,7 @@ article {
 }
 
 #goals {
-	padding: 10px 0 10px 0;
+	padding: 10px 0 25px 0;
 }
 
 #goals p {
@@ -240,6 +240,7 @@ article {
 
 #videos h2 {
  	background-color:#afafaf;
+ 	font-size: 45px;
 }
 
 #videos div {
@@ -335,7 +336,7 @@ ul {
 }
 
 #social {
-	
+
 }
 
 footer {
