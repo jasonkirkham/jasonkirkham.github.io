@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee');
+@import url('https://fonts.googleapis.com/css?family=Khula:800');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:600');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+/*	font-size: 20px;
+*/	line-height: 1.2;
+}
+
+#wrapper {
+
+}
+
+header {
+	text-align: center;
+	background-color: #ececec;
+}
+
+main {
+	background-color:#afafaf;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+
+nav {
+	width: 100%;
+	text-align: center;
+	background-color: #b8cbc9; 
+	border: 1px black solid;
+}
+
+nav a {
+	padding: .3em 0 0 0;
+	text-decoration: none;
+	color: #656565; 
+	font-family: 'Khula', sans-serif;
+	font-size: 1.25em;
+	display: block;
+	width: 20%;
+	float: left;
+	text-transform: uppercase;
+}
+
+/*LoVe HAte*/
+
+nav a:link {
+	color: #000000;
+}
+
+nav a:visited {
+	color: #000000;
+}
+
+nav a:hover {
+	color: #fe1645;
+	background-color:#656565;
+}
+
+nav a:active {
+	color:blue;
+}
+
+.navwrapper {
+	max-width: 1080px;
+	width: 100%;
+	color: red;
+	margin:auto;
+}
+
+h1 {
+	font-family: 'Bungee', cursive;
+	color: #BB2C0C;
+	font-size: 3em;
+	padding-top: 10px;
+}
+
+h2 {
+	font-family: 'Khula', sans-serif;
+	font-size: 2.25em;
+	padding: 10px 0 10px 0;
+	background-color: #ECECEE;
+}
+
+h2 p{
+	padding: 10px 0 10px 0;
+	color: #b8cbc9;
+}
+
+.headerwrapper{
+	max-width: 1080px;
+	margin: auto;
+}
+
+#hero {
+	display:block;
+	background-color: #192f36;
+}
+
+#name {
+	float:right;
+	width:70%;
+	padding-top:70px;
+	font-size: 1.25em;
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: lighter;
+	line-height: 200%;
+	padding-top: 20px;
+	font-size: 1em;
+}
+
+#slogan h2 {
+	background-color: #192f36;
+}
+
+header img {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	margin-left: 50px;
+}
+
+#photo {
+	float:left;
+	width: 30%;
+}
+
+h3 {
+	font-family: 'Khula', sans-serif;
+	font-size: 30px;
+}
+
+article {
+	background: #ECECEE;
+	padding: 20px;
+	font-family: 'Bitter', serif;
+}
+
+#summary {
+	font-weight: bold;
+	margin: 1.8em 1em 1em 1em;
+	width: 80%;
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 5px black solid;
+	text-align: justify;
+	background: #b8cbc9;
+}
+
+#summary p {
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+#goals {
+	padding: 10px 0 25px 0;
+}
+
+#goals p {
+	font-family: 'Bitter', serif;
+	width: 90%;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#websites {
+	font-family: 'Bitter', serif;
+	font-size: 20px;
+	margin: auto;
+	color: #000000;
+	background-color: #c0c2ce;
+}
+
+#websites h2 {
+	font-size: 45px;
+	padding-top: 20px;
+	background-color: #c0c2ce;
+}
+
+#links img {
+	width: 33.33%;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+#links div {
+	padding: 20px 15px;
+	display:inline-block;
+	float:left;
+	width: 33.33333%;
+	height: 300px;
+}
+
+#links a {
+	text-decoration: none;
+	font-size: 20px;
+}
+
+#links span{
+	color:black;
+}
+
+/*LoVe HAte*/
+
+#links img:link {
+	color:black;
+}
+
+#links img:visited {
+	color:black;
+}
+
+#links img:hover {
+	opacity:.5;
+	filter: grayscale(50%);
+}
+
+#links img:active {
+	color: black;
+}
+
+#Lego img {
+	width: 100%;
+	height: auto;
+}
+
+#Lego img:link {
+	color: black;
+}
+
+#Lego img:visit {
+	color: black;
+}
+
+/*#links #Lego img:hover {
+	opacity: 0;
+	background-image: url("images/webby.png");
+}*/
+
+#Lego img:active {
+	color:black;
+}
+
+#vinvault img {
+	height: 100%;
+	width: auto;
+}
+
+#naked img {
+	height:250px;
+	width: auto;
+}
+
+#natm3 a img {
+	width: 100%;
+	height: auto;
+}
+
+#aurora img {
+	height: 100%;
+	width: auto;
+}
+
+#diller img {
+	height: 100%;
+	width: auto;
+}
+
+#snl img {
+	width: 100%;
+	height: auto;
+	padding-top: 20px;
+}
+
+#gwx img {
+	width: 100%;
+	height: auto;
+}
+
+#lma img {
+	width: 105%;
+	height: auto;
+	padding-top: 40px;
+}
+
+.videowrapper {
+	width: 90%;
+	margin: auto;
+/*	background-color: red;
+*/	padding-bottom: 30px;
+}
+
+/*#videos {
+	padding-top: 30px;
+	margin:auto;
+}*/
+
+/*#videos h2 {
+ 	background-color:#afafaf;
+ 	font-size: 45px;
+}*/
+
+#videos div {
+	display:block;
+	width: 33.333%;
+	height: 300px;
+/*	max-height: 223px;
+*/	padding-bottom: 30px;
+/*	background-color:purple;
+*/	float:left;
+	margin:auto;
+}
+
+#videos p {
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 20px;
+	font-family: 'Bitter', serif;
+/*	background-color:purple;
+*/}
+
+iframe {
+	width:100%;
+/*	height:100%;
+*/	max-width: 250px;
+	display:block;
+	margin:auto;
+}
+
+/*#bk {
+	text-align: top;
+}*/
+
+ul {
+	font-family: 'Bitter', serif;
+	list-style-type: none;
+	color: #b8cbc9;
+}
+
+#two_columns {
+	background-color: #192f36;
+}
+
+#left {
+	background-color: #192f36;
+	padding: 20px;
+	float: left;
+	width: 35%;
+	color: #b8cbc9;
+} 
+
+#left li {
+	padding: 5px;
+}
+
+#right {
+	background-color: #192f36;
+	padding: 20px;
+	float: right;
+	width: 65%;
+	color: #b8cbc9;
+}
+
+#right li {
+	padding: 5px;
+}
+
+#contact { 
+	font-family: 'Bitter', serif;
+	clear: both;
+	text-align: center;
+	padding: 20px;
+	background-color: #ECECEE;
+}
+
+#contact h3 {
+	padding-bottom: 10px;
+}
+
+#contact p {
+	padding-bottom: 10px;
+}
+
+#contact a {
+	text-decoration: none;
+}
+
+#contact img {
+	height: 30px;
+	padding-left: 10px;
+}
+
+#call {
+	padding-bottom: 10px;
+}
+
+#call a {
+	text-decoration: underline;
+	font-size: 1.25em;
+}
+
+#resume {
+	text-decoration: underline;
+	padding-bottom: 10px;
+}
+
+#social {
+
+}
+
+footer {
+	background: #668b8b;
+	font-family: 'Source Code Pro', monospace;
+	text-align: center;
+	padding: 20px;
+	border: 1px solid black;
+}
+
+footer p {
+	padding-top: 10px;
+	font-size: 30px;
+	color: black;	
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer img {
+	height: 40px;
+}
+
+footer p:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+@media screen and (max-width:768px){
+body{
+	background-color:cyan;
+}
+}
