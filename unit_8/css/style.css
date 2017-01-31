@@ -123,9 +123,9 @@ h2 p{
 */	font-size: 1em;
 }
 
-#slogan h2 {
+/*#slogan h2 {
 	background-color: #192f36;
-}
+}*/
 
 header img {
 	width: 100%;
@@ -152,7 +152,7 @@ article {
 
 #summary {
 	font-weight: bold;
-	margin: 1.8em 1em .5em 1em;
+	margin: 1.8em 1em 1em 1em;
 	width: 80%;
 	padding: .75em;
 	margin-right: auto;
@@ -164,8 +164,15 @@ article {
 }
 
 #summary p {
-	padding-top: .4em;
-	padding-bottom: .4em;
+	padding: .7em 0 .7em 0;
+}
+
+#summary li {
+	line-height: 1.5em;
+}
+
+#summary ol {
+	padding: .5em 0 .5em 0 ;
 }
 
 #goals {
@@ -188,7 +195,8 @@ article {
 }
 
 main {
-	background-color:#afafaf;
+	padding-top: 1.5em;
+	background-color:#ececec;
 	text-align: center;
 	width: 100%;
 	margin: auto;
@@ -218,8 +226,8 @@ main {
 	display:inline-block;
 	float:left;
 	width: 33.33333%;
-/*	border: 1px solid black;
-*/	height: 100%;
+	border: 1px solid black;
+	height: 100%;
 }
 
 #links a {
@@ -268,7 +276,7 @@ main {
 #gwx img {
 	width: 100%;
 	height: auto;
-	padding-bottom: 4em;
+	padding-bottom: 4.4em;
 }
 
 #Lego img {
@@ -308,7 +316,7 @@ main {
 }
 
 #videos h2 {
- 	background-color:#afafaf;
+ 	background-color:#ececec;
  	font-size: 2.5em;
  	padding-bottom: .25em;
  	padding-top: .25em;
@@ -336,7 +344,7 @@ main {
 
 #videos p {
 	padding-top: 1em;
-	padding-bottom: .5em;
+	padding-bottom: .4em;
 	font-size: 1em;
 	font-family: 'Bitter', serif;
 	color: black;
@@ -410,25 +418,30 @@ ul {
 
 #skills {
 	background-color: #D7D9D7;
-	padding: .5em 0 .5em 2em;
+	padding: .5em 0 .5em 0;
 	font-family: 'Bitter', serif;
-	width: 80%;
-	border: .25em black solid;
+	width: 50%;
 	align-content: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 2em;
+	/*margin-bottom: 1em;*/
 	text-align: center;
+	border: .1em black solid;
 }
+
+#skills ul {
+	color:black;
+/*	float: left;
+*/}
 
 #skills h3 {
 	padding-bottom: .25em;
 	padding-top: .25em;
 }
 
-#skills span {
-	padding: 1.25em;
-
+#skills li {
+	padding: .25em .5em .25em .5em;
+	float: left;
 }
 
 /*#right {
@@ -449,7 +462,7 @@ ul {
 	clear: both;
 	text-align: center;
 	padding: 1em;
-	background-color: #ECECEE;
+	background-color: #b8cbc9;
 }
 
 #contact h3 {
@@ -549,8 +562,6 @@ h1 {
 h2 {
 	font-size: 1.75em;
 }
-
-
 
 }
 
