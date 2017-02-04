@@ -46,6 +46,11 @@ ul {
 	color: #b8cbc9;
 }
 
+.dividers {
+	height: .5em; 
+	background-color: #ececec;
+}
+
 header {
 	max-width: 100%;
 /*	text-align: center;
@@ -151,8 +156,8 @@ nav a:active {
 
 #summary {
 	font-weight: bold;
-	margin: 1.8em 1em 1em 1em;
-	width: 100%;
+/*	margin: 0 1em 1em 1em;
+*/	width: 100%;
 /*	padding: .75em;
 */	margin-right: auto;
 	margin-left: auto;
@@ -234,7 +239,7 @@ nav a:active {
 }
 
 main {
-	padding-top: 1.5em;
+	/*padding-top: 1.5em;*/
 	background-color:#ececec;
 	text-align: center;
 	width: 100%;
@@ -374,12 +379,13 @@ main {
 .videowrapper {
 	width: 100%;
 	margin: auto;
+	background-color: #D7D9DB;
 	padding-bottom: 1em;
 }
 
 #videos h2 {
- 	background-color:#ececec;
- 	font-size: 2.5em;
+/* 	background-color:#ececec;
+*/ 	font-size: 2.5em;
  	padding-bottom: .25em;
  	padding-top: .25em;
 }
@@ -571,7 +577,6 @@ footer a:hover {
 	opacity: .5;
 	filter: grayscale(30%);
 }
-
 
 .clearfix:after {
 	visibility: hidden;
