@@ -264,10 +264,11 @@ main {
 }
 
 #links div {
-	padding: 1em .75em;
+	/*padding: 1em .75em;*/
 	display:inline-block;
 	float:left;
 	width: 33.3333%;
+	height: 15em;
 /*	border: 1px solid black;
 */	/*height: 100%;*/
 }
@@ -292,18 +293,18 @@ main {
 #natm3 img {
 	width: 100%;
 	/*height: auto;*/
-	padding-top: 4em;
+	padding-top: 2em;
 }
 
 #vinvault img {
-/*	height: 100%;
-*/	width: 48%;
-}
+	height: 100%;
+/*	width: 100%;
+*/}
 
 #naked img {
-	/*height: 250px;*/
-	width: 60%;
-}
+	height: 100%;
+/*	width: 60%;
+*/}
 
 #aurora img {
 /*	height: 100%;
@@ -337,6 +338,7 @@ main {
 	width: 105%;
 /*	height: auto;
 */	padding-top: 2em;
+	padding-bottom: 2em;
 }
 
 /*LoVe HAte*/
@@ -405,11 +407,12 @@ main {
 #videos div {
 	display:block;
 	width: 33.333%;
-/*	height: 300px;
-*/	padding-bottom: 1em;
+	height: 15em;
+	padding-bottom: 1em;
 	float:left;
 	padding: .25em;
-/*	margin:auto;
+/*	border: .25em solid black;
+*//*	margin:auto;
 */}
 
 #videos a {
@@ -593,20 +596,44 @@ footer a:hover {
 		font-size: 24px;
 		width: 1500px;
 	}
-}
 
-@media screen and (max-width:1200px){
-	#links div {
-		width: 25%;
+	#name {
+		padding-top: 3em;
+	}
+
+	#ditech p {
+		padding-bottom: 2.7em;
 	}
 }
 
+@media screen and (max-width:1221px){
+	#bose p {
+		padding-bottom: .5em;
+	}
+}
+
+@media screen and (max-width:1121px){
+	#magic p {
+		padding-bottom: .5em;
+	}
+
+}
 
 @media screen and (max-width:1015px){
 
 #videos p {
 	font-size: .8em;
 }
+
+#bose p {
+	padding-bottom: 1.6em;
+}
+
+#magic p {
+	padding-bottom: 1.6em;
+}
+
+
 
 }
 
@@ -636,6 +663,14 @@ body{
 	font-size: 16px;
 }
 
+#summary p {
+	font-size: 1.25em;
+}
+
+#summary li {
+	font-size: 1.25em;
+}
+
 .navwrapper a {
 	float: none;
 	width: auto;
@@ -654,6 +689,9 @@ body{
 #videos div{
 	float:none;
 	width: 80%;
+	padding-top: 1em;
+	margin: auto;
+	height: 100%;
 }
 
 #videos p {
@@ -675,7 +713,7 @@ body{
 
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:667px){
 
 h1 {
 	font-size: 2.5em;
@@ -683,6 +721,31 @@ h1 {
 
 #name {
 	padding-top: 2.5em;
+}
+
+#links div {
+	float: none;
+	margin: auto;
+	width: 70%;
+}
+ 
+#links h3{
+	font-size: 1.75em;
+	padding-bottom: 1em;
+}
+
+#links span {
+	font-size: 1.5em;
+}
+
+#natm3 img {
+	padding-top: .5em;
+}
+
+#gwx img {
+	padding-bottom: 2em;
+}
+
 }
 
 @media screen and (max-width:600px){
@@ -726,30 +789,20 @@ h2 p {
 	float: none;
 }
 
-header img {
+#photo img {
 	margin:0;
 }
 
-#links div {
-	float: none;
-	margin: auto;
-	width: 70%;
+#slogan h2 {
+	padding-bottom: 1em;
 }
 
-#links h3 {
-	font-size: 1.75em;
+#summary p {
+	font-size: 1.1em;
 }
 
-#links span {
-	font-size: 1.5em;
-}
-
-#natm3 img {
-	padding-top: .5em;
-}
-
-#gwx img {
-	padding-bottom: 2em;
+#summary li {
+	font-size: 1.1em;
 }
 
 } 
